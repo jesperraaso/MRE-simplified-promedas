@@ -1,0 +1,400 @@
+Wed Feb 11 18:07:19 2026
+
+
+Moral links:
+
+    Marrying Flu and PeanutAllergy
+    Marrying Asthma and PeanutAllergy
+    Marrying Asthma and Flu
+    Marrying Pneunomia and Asthma
+    Marrying Pneunomia and Flu
+    Marrying CommonCold and PeanutAllergy
+    Marrying CommonCold and Asthma
+    Marrying CommonCold and Flu
+    Marrying CommonCold and Pneunomia
+    Marrying Depression and CommonCold
+    Marrying Concussion and Depression
+    Marrying Concussion and Flu
+    Marrying Hypertension and Flu
+    Marrying Hypertension and PeanutAllergy
+    Marrying Hypertension and Concussion
+    Marrying Hypertension and Depression
+    Marrying Hypertension and CommonCold
+    Marrying Stroke and Concussion
+    Marrying Stroke and Flu
+    Marrying Stroke and Hypertension
+
+
+Triangulating prime component with 3 members:
+    ThigthChest, Asthma, Pneunomia
+This component is a clique of cost 8
+
+Triangulating prime component with 2 members:
+    PeanutAllergy, AtePeanut
+This component is a clique of cost 4
+
+Triangulating prime component with 4 members:
+    Asthma, Pneunomia, CommonCold, ShortnessBreath
+This component is a clique of cost 16
+
+Triangulating prime component with 3 members:
+    LossSmell, PeanutAllergy, CommonCold
+This component is a clique of cost 8
+
+Triangulating prime component with 2 members:
+    BadMood, Depression
+This component is a clique of cost 4
+
+Triangulating prime component with 3 members:
+    AbnormTemp, Flu, Pneunomia
+This component is a clique of cost 8
+
+Triangulating prime component with 3 members:
+    PeanutAllergy, Diarrhea, Flu
+This component is a clique of cost 8
+
+Triangulating prime component with 3 members:
+    MuscleAche, Flu, CommonCold
+This component is a clique of cost 8
+
+Triangulating prime component with 4 members:
+    Flu, Asthma, Pneunomia, CommonCold
+This component is a clique of cost 16
+
+Triangulating prime component with 5 members:
+    PeanutAllergy, Flu, Asthma, CommonCold, Coughing
+This component is a clique of cost 32
+
+Triangulating prime component with 4 members:
+    Tired, CommonCold, Depression, Hypertension
+This component is a clique of cost 16
+
+Triangulating prime component with 4 members:
+    PeanutAllergy, Naussea, Flu, Hypertension
+This component is a clique of cost 16
+
+Triangulating prime component with 4 members:
+    PeanutAllergy, Flu, CommonCold, Hypertension
+This component is a clique of cost 16
+
+Triangulating prime component with 3 members:
+    MemoryIssues, Depression, Concussion
+This component is a clique of cost 8
+
+Triangulating prime component with 5 members:
+    Flu, CommonCold, Depression, Concussion, Hypertension
+
+    Using the best greedy heuristic for triangulation
+
+
+Triangulating prime component with 2 members:
+    TroubleSpeaking, Stroke
+This component is a clique of cost 4
+
+Triangulating prime component with 3 members:
+    visionProblems, Concussion, Stroke
+This component is a clique of cost 8
+
+Triangulating prime component with 5 members:
+    HeadAche, Flu, Concussion, Hypertension, Stroke
+This component is a clique of cost 32
+
+Triangulating prime component with 4 members:
+    Dizziness, Concussion, Hypertension, Stroke
+This component is a clique of cost 16
+
+
+Total cost of triangulation for all prime components is 260
+
+
+Elimination sequence:
+
+    BadMood
+    AtePeanut
+    MuscleAche
+    MemoryIssues
+    LossSmell
+    Diarrhea
+    ThigthChest
+    AbnormTemp
+    ShortnessBreath
+    Pneunomia
+    Coughing
+    Asthma
+    Naussea
+    PeanutAllergy
+    Tired
+    Depression
+    CommonCold
+    HeadAche
+    Flu
+    Dizziness
+    Hypertension
+    visionProblems
+    Concussion
+    TroubleSpeaking
+    Stroke
+
+
+Cliques:
+
+Clique 20, 2 members, table size = 4:
+    Stroke, TroubleSpeaking
+
+Clique 19, 3 members, table size = 8:
+    Stroke, Concussion, visionProblems
+
+Clique 18, 4 members, table size = 16:
+    Stroke, Concussion, Hypertension, Dizziness
+
+Clique 17, 5 members, table size = 32:
+    Stroke, Concussion, Hypertension, Flu, HeadAche
+
+Clique 16, 4 members, table size = 16:
+    Concussion, Hypertension, Flu, CommonCold
+
+Clique 15, 4 members, table size = 16:
+    Concussion, Hypertension, CommonCold, Depression
+
+Clique 14, 4 members, table size = 16:
+    Hypertension, CommonCold, Depression, Tired
+
+Clique 13, 3 members, table size = 8:
+    Concussion, Depression, MemoryIssues
+
+Clique 12, 2 members, table size = 4:
+    Depression, BadMood
+
+Clique 11, 4 members, table size = 16:
+    Hypertension, Flu, CommonCold, PeanutAllergy
+
+Clique 10, 4 members, table size = 16:
+    Hypertension, Flu, PeanutAllergy, Naussea
+
+Clique 9, 5 members, table size = 32:
+    Flu, CommonCold, PeanutAllergy, Asthma, Coughing
+
+Clique 8, 4 members, table size = 16:
+    Flu, CommonCold, Asthma, Pneunomia
+
+Clique 7, 4 members, table size = 16:
+    CommonCold, Asthma, Pneunomia, ShortnessBreath
+
+Clique 6, 3 members, table size = 8:
+    Flu, Pneunomia, AbnormTemp
+
+Clique 5, 3 members, table size = 8:
+    Asthma, Pneunomia, ThigthChest
+
+Clique 4, 3 members, table size = 8:
+    Flu, PeanutAllergy, Diarrhea
+
+Clique 3, 3 members, table size = 8:
+    CommonCold, PeanutAllergy, LossSmell
+
+Clique 2, 2 members, table size = 4:
+    PeanutAllergy, AtePeanut
+
+Clique 1, 3 members, table size = 8:
+    Flu, CommonCold, MuscleAche
+
+Total clique table size: 260
+
+
+The junction forest:
+
+Creating junction tree with clique 20 as root ...
+
+Cliques 19 and 20 linked, separator has 1 member and table size = 2:
+    Stroke
+
+Cliques 18 and 19 linked, separator has 2 members and table size = 4:
+    Stroke, Concussion
+
+Cliques 17 and 18 linked, separator has 3 members and table size = 8:
+    Stroke, Concussion, Hypertension
+
+Cliques 16 and 17 linked, separator has 3 members and table size = 8:
+    Concussion, Hypertension, Flu
+
+Cliques 15 and 16 linked, separator has 3 members and table size = 8:
+    Concussion, Hypertension, CommonCold
+
+Cliques 14 and 15 linked, separator has 3 members and table size = 8:
+    Hypertension, CommonCold, Depression
+
+Cliques 13 and 15 linked, separator has 2 members and table size = 4:
+    Concussion, Depression
+
+Cliques 12 and 13 linked, separator has 1 member and table size = 2:
+    Depression
+
+Cliques 11 and 16 linked, separator has 3 members and table size = 8:
+    Hypertension, Flu, CommonCold
+
+Cliques 10 and 11 linked, separator has 3 members and table size = 8:
+    Hypertension, Flu, PeanutAllergy
+
+Cliques 9 and 11 linked, separator has 3 members and table size = 8:
+    Flu, CommonCold, PeanutAllergy
+
+Cliques 8 and 9 linked, separator has 3 members and table size = 8:
+    Flu, CommonCold, Asthma
+
+Cliques 7 and 8 linked, separator has 3 members and table size = 8:
+    CommonCold, Asthma, Pneunomia
+
+Cliques 6 and 8 linked, separator has 2 members and table size = 4:
+    Flu, Pneunomia
+
+Cliques 5 and 8 linked, separator has 2 members and table size = 4:
+    Asthma, Pneunomia
+
+Cliques 4 and 11 linked, separator has 2 members and table size = 4:
+    Flu, PeanutAllergy
+
+Cliques 3 and 11 linked, separator has 2 members and table size = 4:
+    CommonCold, PeanutAllergy
+
+Cliques 2 and 3 linked, separator has 1 member and table size = 2:
+    PeanutAllergy
+
+Cliques 1 and 16 linked, separator has 2 members and table size = 4:
+    Flu, CommonCold
+
+
+Assignment of potentials to cliques:
+
+    Node LossSmell assigned to clique 3
+    Node ThigthChest assigned to clique 5
+    Node BadMood assigned to clique 12
+    Node Tired assigned to clique 14
+    Node MuscleAche assigned to clique 1
+    Node Dizziness assigned to clique 18
+    Node visionProblems assigned to clique 19
+    Node PeanutAllergy assigned to clique 2
+    Node HeadAche assigned to clique 17
+    Node MemoryIssues assigned to clique 13
+    Node Naussea assigned to clique 10
+    Node TroubleSpeaking assigned to clique 20
+    Node AtePeanut assigned to clique 2
+    Node Diarrhea assigned to clique 4
+    Node AbnormTemp assigned to clique 6
+    Node Flu assigned to clique 6
+    Node Asthma assigned to clique 5
+    Node Pneunomia assigned to clique 6
+    Node CommonCold assigned to clique 3
+    Node Depression assigned to clique 12
+    Node Concussion assigned to clique 19
+    Node ShortnessBreath assigned to clique 7
+    Node Coughing assigned to clique 9
+    Node Hypertension assigned to clique 18
+    Node Stroke assigned to clique 20
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    LossSmell:
+	false      0.870618
+	true       0.129382
+
+    ThigthChest:
+	false      0.912587
+	true       0.0874126
+
+    BadMood:
+	false      0.7712
+	true       0.2288
+
+    Tired:
+	false      0.714382
+	true       0.285618
+
+    MuscleAche:
+	false      0.8664
+	true       0.1336
+
+    Dizziness:
+	false      0.834048
+	true       0.165952
+
+    visionProblems:
+	false      0.970078
+	true       0.0299219
+
+    PeanutAllergy:
+	false      0.98
+	true       0.02
+
+    HeadAche:
+	false      0.811571
+	true       0.188429
+
+    MemoryIssues:
+	false      0.941284
+	true       0.0587161
+
+    Naussea:
+	false      0.770193
+	true       0.229807
+
+    TroubleSpeaking:
+	false      0.994055
+	true       0.00594505
+
+    AtePeanut:
+	false      0.784
+	true       0.216
+
+    Diarrhea:
+	false      0.907294
+	true       0.0927057
+
+    AbnormTemp:
+	false      0.931128
+	true       0.068872
+
+    Flu:
+	false      0.95
+	true       0.05
+
+    Asthma:
+	false      0.92
+	true       0.08
+
+    Pneunomia:
+	false      0.9975
+	true       0.0025
+
+    CommonCold:
+	false      0.9
+	true       0.1
+
+    Depression:
+	false      0.96
+	true       0.04
+
+    Concussion:
+	false      0.994
+	true       0.006
+
+    ShortnessBreath:
+	false      0.794061
+	true       0.205939
+
+    Coughing:
+	false      0.765253
+	true       0.234747
+
+    Hypertension:
+	false      0.85
+	true       0.15
+
+    Stroke:
+	false      0.995
+	true       0.005
