@@ -1,7 +1,7 @@
 from pyhugin96 import *
 from itertools import combinations, product 
 
-net_name = "thesisNETWORK"
+net_name = "simplified_promedas"
 promedas = Domain.parse_domain("{}.net".format(net_name))
 promedas.open_log_file("{}.log".format(net_name))
 promedas.triangulate()
@@ -130,7 +130,6 @@ def reset(domain):
 def set_evidence(evidence):
     if evidence:
         for node_name, state in evidence.items():
-            # print(node_name, ": ",state)
             node = promedas.get_node_by_name(node_name)
             node.select_state(state)
 
@@ -288,11 +287,8 @@ def computeGBF(pConfig, config):
         prob= prob* p
         
     # GBF = P(x|evidence)*(1-P(x))/(P(x)*(1-P(x|Evidence)))
-    
-    if config == {'Asthma': 1}:
-        print('^^^^^^^^^^^^^^^^^^^^^^^^^^')
-        print(pConfig) 
     GBF = (pConfig*(1-prob))/(prob*(1-pConfig))
+
     return GBF
 
 def MRE(evidence,ExplainationSet):
@@ -367,5 +363,5 @@ ExplainationSet = [node for node in promedas.get_nodes() if node.get_name() in d
 
 topConfig, topGBF= MRE(evi,ExplainationSet)
 for i in range(len(topConfig)):
-        print("# ", i, "explanation: ", topConfig[i])
+        print("explanation # ",i+1,": ", topConfig[i])
         print("GBF: ",topGBF[i] ) 
